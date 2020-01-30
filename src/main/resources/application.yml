@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    format-sql: true
+  datasource:
+    username: root
+    password: password
+    driver-class: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/poc?useSSL=false&allowPublicKeyRetrieval=true&autoReconnectForPools=true&useUnicode=true&&characterEncoding=utf8
